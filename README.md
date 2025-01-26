@@ -1,0 +1,2 @@
+Foundations: Odin-Recipes
+This project was to test my knowledge that I've learned thus far. It's been exciting to see the different things that I've had to do in order to be able to get this far. In these recipe pages I tried to expand on what I've been taught and present every aspect of it. One of the pages I made super quick and its short. The next is a little longer in text and has more paragraphs, while the last one I added had more pictures while still having a lot of text input.
