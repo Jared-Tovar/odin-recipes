@@ -33,23 +33,50 @@ button:active {
     transition: none;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 420%;
+    font-size: 300%;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: rgb(38, 38, 38);
+    color: white;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+* {
+    line-height: 1.5;
+}
 
+.recipe-card {
+    width: 600px;
+    text-align: center;
+}
 
+.recipe-content {
+    text-align: center;
+}
 
+.recipe-card.feature {
+    border: 2px solid rgb(34, 214, 187);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+ol,
+ul {
+    text-align: center;  
+}
+
+li {
+    text-align: left;
+}
+
+img {
+    border-radius: 1rem;
+}
