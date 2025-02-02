@@ -1,0 +1,35 @@
+button { 
+    background: midnightblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.1s;
+}
+
+button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(34, 214, 187) 12%, rgba(117, 102, 251, 1) 100.2%);
+    filter: blur(10px);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
