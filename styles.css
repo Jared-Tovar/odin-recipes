@@ -23,7 +23,8 @@ button {
     border-radius: 1rem;
     position: relative;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
+    padding: 8px 17px;
     font-family: 'Courier New', Courier, monospace;
     transition: 0.1s;
 }

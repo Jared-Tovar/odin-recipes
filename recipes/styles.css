@@ -5,7 +5,8 @@ button {
     border-radius: 1rem;
     position: relative;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
+    padding: 8px 17px;
     font-family: 'Courier New', Courier, monospace;
     transition: 0.1s;
 }
