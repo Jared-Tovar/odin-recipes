@@ -1,3 +1,14 @@
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 700%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(38, 38, 38);
+}
+
 p {
     display: flex;
     justify-content: center;
@@ -6,7 +17,7 @@ p {
 }
 
 button { 
-    background: midnightblue;
+    background: rgb(38, 38, 38);
     cursor: pointer;
     border: none;
     border-radius: 1rem;
@@ -29,19 +40,17 @@ button::after {
     left: 0;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 700%;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+button:hover {
+    background-color: rgb(0, 0, 189);
+    transform: scale(1.1);
 }
 
 button:active {
     transform: scale(0.9);
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(34, 214, 187) 12%, rgba(117, 102, 251, 1) 100.2%);
-    transition: all 0.3s;
+    transition: none;
 }
 
-body {
-    background-color: midnightblue;
-}
+
+
+
