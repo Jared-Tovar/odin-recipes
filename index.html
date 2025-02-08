@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Odin Recipes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="recipes/styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <div class="container">
-        <div class="center">
-            <p><a href="recipes/lasagna.html"><button>World's Best Lasagna</button></a></p>
-            <p><a href="recipes/bulgogi.html"><button>Skillet Chicken Bulgogi</button></a></p>
-            <p><a href="recipes/soup.html"><button>Chicken Noodle Soup</button></a></p>   
-        </div>
+    <div class="container" id="container"> 
+        <div class="recipe-card feature">
+            <img id="logo-one" src="https://www.theodinproject.com/assets/icons/odin-icon-22b41941.svg" 
+                 alt="Odin Project Logo" width="50">
+            <h1 id="header-one">Odin Recipes</h1> 
+            <div class="recipe-content">
+                <p>Welcome to my recipe collection! Here you will find a variety of delicious recipes that I have curated. Each recipe includes ingredients, directions, and tips to help you create a fantastic meal. Enjoy!</p>
+                <section class="recipe-info">
+                    <p>
+                        <a href="recipes/lasagna.html">
+                            <button>World's Best Lasagna</button>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="recipes/bulgogi.html">
+                            <button>Skillet Chicken Bulgogi</button>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="recipes/soup.html">
+                            <button>Chicken Noodle Soup</button>
+                        </a>
+                    </p>
+                </section>
+            </div>
+        </div>  
     </div>
 </body>
 </html>

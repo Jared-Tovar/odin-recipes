@@ -7,6 +7,10 @@ button {
     color: rgb(255, 255, 255);
     font-size: 15px;
     padding: 8px 17px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: -4px;
+    margin-right: -4px;
     font-family: 'Courier New', Courier, monospace;
     transition: 0.1s;
 }
@@ -36,9 +40,10 @@ button:active {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 300%;
+    font-size: 50px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin: auto;
 }
 
 body {
@@ -46,25 +51,32 @@ body {
     color: white;
     font-size: 17px;
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 
 * {
     line-height: 1.5;
+    
 }
 
 .recipe-card {
-    width: 600px;
+    width: auto;
     text-align: center;
 }
 
 .recipe-content {
     text-align: center;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .recipe-card.feature {
     border: 2px solid rgb(34, 214, 187);
     border-radius: 1rem;
-    padding: 1rem;
+    justify-content: center;
+    padding: auto;
     text-align: center;
     margin: auto;
 }
@@ -81,8 +93,13 @@ li {
 img {
     border-radius: 1rem;
 }
+ 
 
-.recipe-info {
-    padding : 10px
-}
+
+
+
+    
+
+
+
 
